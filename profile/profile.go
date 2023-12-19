@@ -13,8 +13,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/consensys/gnark/logger"
-	"github.com/consensys/gnark/profile/internal/report"
+	"github.com/aakash4dev/gnark-fork/logger"
+	"github.com/aakash4dev/gnark-fork/profile/internal/report"
 	"github.com/google/pprof/profile"
 )
 

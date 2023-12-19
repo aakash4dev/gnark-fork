@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/fields_bw6761"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/fields_bw6761"
-	"github.com/consensys/gnark/std/math/emulated"
 )
 
 type Pairing struct {

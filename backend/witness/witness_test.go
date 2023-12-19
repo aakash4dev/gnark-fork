@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/backend/witness"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/io"
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
-	"github.com/consensys/gnark/backend/witness"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/io"
 	"github.com/stretchr/testify/require"
 )
 

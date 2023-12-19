@@ -1,8 +1,8 @@
 package twistededwards
 
 import (
+	"github.com/aakash4dev/gnark-fork/frontend"
 	"github.com/consensys/gnark-crypto/ecc/twistededwards"
-	"github.com/consensys/gnark/frontend"
 )
 
 // curve curve is the default twisted edwards companion curve (defined on api.Curve().Fr)
@@ -48,7 +48,7 @@ func (c *curve) ScalarMul(p1 Point, scalar frontend.Variable) Point {
 	var p Point
 	if c.endo != nil {
 		// TODO restore
-		// this is disabled until this issue is solved https://github.com/ConsenSys/gnark/issues/268
+		// this is disabled until this issue is solved https://github.com/aakash4dev/gnark-fork/issues/268
 		// p.scalarMulGLV(c.api, &p1, scalar, c.params, c.endo)
 		p.scalarMul(c.api, &p1, scalar, c.params)
 	} else {

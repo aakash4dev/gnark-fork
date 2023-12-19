@@ -19,9 +19,9 @@
 package logderivlookup
 
 import (
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/internal/logderivarg"
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/internal/logderivarg"
 )
 
 // Table holds all the entries and queries.

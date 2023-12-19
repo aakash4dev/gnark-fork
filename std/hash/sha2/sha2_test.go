@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/math/uints"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/uints"
-	"github.com/consensys/gnark/test"
 )
 
 type sha2Circuit struct {

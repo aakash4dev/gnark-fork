@@ -1,10 +1,11 @@
 package selector_test
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/selector"
-	"github.com/consensys/gnark/test"
 	"testing"
+
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/selector"
+	"github.com/aakash4dev/gnark-fork/test"
 )
 
 type partitionerCircuit struct {

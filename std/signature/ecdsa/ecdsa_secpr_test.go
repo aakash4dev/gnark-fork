@@ -9,9 +9,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/test"
 	"golang.org/x/crypto/cryptobyte"
 	"golang.org/x/crypto/cryptobyte/asn1"
 )

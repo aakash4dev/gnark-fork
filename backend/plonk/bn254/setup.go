@@ -23,9 +23,9 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr/iop"
 	"github.com/consensys/gnark-crypto/ecc/bn254/kzg"
-	"github.com/consensys/gnark/backend/plonk/internal"
-	"github.com/consensys/gnark/constraint"
-	cs "github.com/consensys/gnark/constraint/bn254"
+	"github.com/aakash4dev/gnark-fork/backend/plonk/internal"
+	"github.com/aakash4dev/gnark-fork/constraint"
+	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
 )
 
 // VerifyingKey stores the data needed to verify a proof:

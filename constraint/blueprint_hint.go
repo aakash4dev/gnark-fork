@@ -1,8 +1,8 @@
 package constraint
 
 import (
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/debug"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/debug"
 )
 
 type BlueprintGenericHint struct{}

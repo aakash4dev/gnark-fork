@@ -19,10 +19,10 @@ package fields_bls12377
 import (
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
 	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/test"
 )
 
 //--------------------------------------------------------------------

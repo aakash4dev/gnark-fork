@@ -4,14 +4,14 @@ import (
 	"math"
 	"sync"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls12377"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls24315"
+	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
 	"github.com/consensys/gnark"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls12377"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls24315"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"github.com/consensys/gnark/std/math/bits"
-	"github.com/consensys/gnark/std/math/emulated"
 )
 
 var (

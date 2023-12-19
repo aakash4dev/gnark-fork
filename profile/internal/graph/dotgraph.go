@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/consensys/gnark/profile/internal/measurement"
+	"github.com/aakash4dev/gnark-fork/profile/internal/measurement"
 )
 
 // DotAttributes contains details about the graph itself, giving

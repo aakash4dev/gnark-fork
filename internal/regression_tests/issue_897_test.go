@@ -3,9 +3,9 @@ package regressiontests
 import (
 	"testing"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/rangecheck"
-	"github.com/consensys/gnark/test"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/rangecheck"
+	"github.com/aakash4dev/gnark-fork/test"
 )
 
 type TestRangeCheckCircuit struct {

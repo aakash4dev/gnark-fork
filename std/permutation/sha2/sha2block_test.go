@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/math/uints"
+	"github.com/aakash4dev/gnark-fork/std/permutation/sha2"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/uints"
-	"github.com/consensys/gnark/std/permutation/sha2"
-	"github.com/consensys/gnark/test"
 )
 
 var _K = []uint32{

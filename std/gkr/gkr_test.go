@@ -8,14 +8,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/frontend"
-	fiatshamir "github.com/consensys/gnark/std/fiat-shamir"
-	"github.com/consensys/gnark/std/polynomial"
-	"github.com/consensys/gnark/test"
+	"github.com/aakash4dev/gnark-fork/backend"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	fiatshamir "github.com/aakash4dev/gnark-fork/std/fiat-shamir"
+	"github.com/aakash4dev/gnark-fork/std/polynomial"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/consensys/gnark/std/hash"
+	"github.com/aakash4dev/gnark-fork/std/hash"
 )
 
 func TestGkrVectors(t *testing.T) {

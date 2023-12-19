@@ -1,16 +1,17 @@
 package lzss
 
 import (
-	goCompress "github.com/consensys/compress"
-	"github.com/consensys/compress/lzss"
 	"os"
 	"testing"
 
+	goCompress "github.com/consensys/compress"
+	"github.com/consensys/compress/lzss"
+
+	"github.com/aakash4dev/gnark-fork/backend"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	test_vector_utils "github.com/aakash4dev/gnark-fork/std/utils/test_vectors_utils"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/frontend"
-	test_vector_utils "github.com/consensys/gnark/std/utils/test_vectors_utils"
-	"github.com/consensys/gnark/test"
 	"github.com/stretchr/testify/assert"
 )
 

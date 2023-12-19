@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/frontend/cs/scs"
-	"github.com/consensys/gnark/test"
 )
 
 func randomG1G2Affines() (bn254.G1Affine, bn254.G2Affine) {

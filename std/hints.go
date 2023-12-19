@@ -3,18 +3,18 @@ package std
 import (
 	"sync"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_emulated"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls12377"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls24315"
-	"github.com/consensys/gnark/std/evmprecompiles"
-	"github.com/consensys/gnark/std/internal/logderivarg"
-	"github.com/consensys/gnark/std/math/bits"
-	"github.com/consensys/gnark/std/math/bitslice"
-	"github.com/consensys/gnark/std/math/cmp"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/std/rangecheck"
-	"github.com/consensys/gnark/std/selector"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_emulated"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls12377"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls24315"
+	"github.com/aakash4dev/gnark-fork/std/evmprecompiles"
+	"github.com/aakash4dev/gnark-fork/std/internal/logderivarg"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/std/math/bitslice"
+	"github.com/aakash4dev/gnark-fork/std/math/cmp"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark-fork/std/rangecheck"
+	"github.com/aakash4dev/gnark-fork/std/selector"
 )
 
 var registerOnce sync.Once

@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
+	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
 	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
 	"github.com/consensys/gnark-crypto/hash"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/scs"
-	"github.com/consensys/gnark/internal/utils"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"github.com/consensys/gnark/test"
 )
 
 type FiatShamirCircuit struct {

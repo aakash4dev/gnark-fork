@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/test"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark-fork/test"
 )
 
 type WrapperCircuit struct {

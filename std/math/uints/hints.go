@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/consensys/gnark/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
 )
 
 func init() {

@@ -3,19 +3,20 @@ package lzss
 import (
 	"compress/gzip"
 	"fmt"
+	"os"
+	"time"
+
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
+	"github.com/aakash4dev/gnark-fork/profile"
+	"github.com/aakash4dev/gnark-fork/std/compress"
+	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
 	goCompress "github.com/consensys/compress"
 	"github.com/consensys/compress/lzss"
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
 	"github.com/consensys/gnark-crypto/hash"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/scs"
-	"github.com/consensys/gnark/profile"
-	"github.com/consensys/gnark/std/compress"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"os"
-	"time"
 )
 
 type DecompressionTestCircuit struct {

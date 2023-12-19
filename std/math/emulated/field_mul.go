@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/multicommit"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/multicommit"
 )
 
 // mulCheck represents a single multiplication check. Instead of doing a

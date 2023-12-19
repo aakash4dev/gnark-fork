@@ -14,6 +14,17 @@ package kzg
 import (
 	"fmt"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra"
+	"github.com/aakash4dev/gnark-fork/std/algebra/algopts"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bls12381"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bn254"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bw6761"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls12377"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls24315"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark-fork/std/recursion"
 	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
 	fr_bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
 	kzg_bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377/kzg"
@@ -29,17 +40,6 @@ import (
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
 	fr_bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
 	kzg_bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761/kzg"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra"
-	"github.com/consensys/gnark/std/algebra/algopts"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bls12381"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bn254"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bw6761"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls12377"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls24315"
-	"github.com/consensys/gnark/std/math/bits"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/std/recursion"
 )
 
 // ValueOfScalar initializes a scalar in a witness from a native scalar (Fr) point.

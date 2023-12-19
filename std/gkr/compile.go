@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	fiatshamir "github.com/consensys/gnark/std/fiat-shamir"
-	"github.com/consensys/gnark/std/hash"
-	"github.com/consensys/gnark/std/utils/algo_utils"
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	fiatshamir "github.com/aakash4dev/gnark-fork/std/fiat-shamir"
+	"github.com/aakash4dev/gnark-fork/std/hash"
+	"github.com/aakash4dev/gnark-fork/std/utils/algo_utils"
 )
 
 type circuitDataForSnark struct {

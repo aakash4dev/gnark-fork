@@ -3,10 +3,10 @@ package sw_bn254
 import (
 	"math/big"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/fields_bn254"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/fields_bn254"
-	"github.com/consensys/gnark/std/math/emulated"
 )
 
 type G2 struct {

@@ -24,17 +24,17 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/aakash4dev/gnark-fork/internal/utils"
 
-	"github.com/consensys/gnark/debug"
-	"github.com/consensys/gnark/frontend/cs"
+	"github.com/aakash4dev/gnark-fork/debug"
+	"github.com/aakash4dev/gnark-fork/frontend/cs"
 
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/internal/expr"
-	"github.com/consensys/gnark/frontend/schema"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/internal/expr"
+	"github.com/aakash4dev/gnark-fork/frontend/schema"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
 )
 
 // ---------------------------------------------------------------------------------------------

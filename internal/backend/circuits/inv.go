@@ -3,8 +3,8 @@ package circuits
 import (
 	"math/big"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
 )
 
 type invCircuit struct {

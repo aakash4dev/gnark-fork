@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/internal/expr"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/internal/expr"
 )
 
 func TestQuickSort(t *testing.T) {

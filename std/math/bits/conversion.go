@@ -3,7 +3,7 @@ package bits
 import (
 	"errors"
 
-	"github.com/consensys/gnark/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend"
 )
 
 // Base defines the base for decomposing the scalar into digits.

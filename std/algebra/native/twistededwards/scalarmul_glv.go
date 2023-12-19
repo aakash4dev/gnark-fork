@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/frontend"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
 )
 
 // phi endomorphism √-2 ∈ 𝒪₋₈

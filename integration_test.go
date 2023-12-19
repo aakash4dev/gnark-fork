@@ -20,10 +20,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/internal/backend/circuits"
-	"github.com/consensys/gnark/test"
+	"github.com/aakash4dev/gnark-fork/backend"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/internal/backend/circuits"
+	"github.com/aakash4dev/gnark-fork/test"
 )
 
 func TestIntegrationAPI(t *testing.T) {

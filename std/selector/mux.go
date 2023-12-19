@@ -2,7 +2,8 @@ package selector
 
 import (
 	"fmt"
-	"github.com/consensys/gnark/frontend"
+
+	"github.com/aakash4dev/gnark-fork/frontend"
 )
 
 // BinaryMux is a 2^k to 1 multiplexer which uses a binary selector. selBits are

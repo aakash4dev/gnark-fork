@@ -1,8 +1,8 @@
 package rangecheck
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
 )
 
 type plainChecker struct {

@@ -18,12 +18,13 @@ package fiatshamir
 
 import (
 	"errors"
+
 	"golang.org/x/exp/slices"
 
-	"github.com/consensys/gnark/constant"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/hash"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/constant"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/hash"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
 )
 
 // errChallengeNotFound is returned when a wrong challenge name is provided.

@@ -3,11 +3,11 @@ package multicommit_test
 import (
 	"fmt"
 
+	"github.com/aakash4dev/gnark-fork/backend/groth16"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark-fork/std/multicommit"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/std/multicommit"
 )
 
 // MultipleCommitmentCircuit is an example circuit showing usage of multiple

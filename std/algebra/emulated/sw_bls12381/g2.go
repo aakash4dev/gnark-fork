@@ -3,10 +3,10 @@ package sw_bls12381
 import (
 	"math/big"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/fields_bls12381"
+	"github.com/aakash4dev/gnark-fork/std/math/emulated"
 	bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/fields_bls12381"
-	"github.com/consensys/gnark/std/math/emulated"
 )
 
 type G2 struct {

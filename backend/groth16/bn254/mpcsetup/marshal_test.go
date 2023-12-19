@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	curve "github.com/consensys/gnark-crypto/ecc/bn254"
-	cs "github.com/consensys/gnark/constraint/bn254"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	gnarkio "github.com/consensys/gnark/io"
+	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
+	gnarkio "github.com/aakash4dev/gnark-fork/io"
 	"github.com/stretchr/testify/require"
 )
 

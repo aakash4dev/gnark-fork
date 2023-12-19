@@ -17,9 +17,9 @@ limitations under the License.
 package sw_bls12377
 
 import (
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/std/algebra/native/fields_bls12377"
 	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/native/fields_bls12377"
 )
 
 // lineEvaluation represents a sparse Fp12 Elmt (result of the line evaluation)

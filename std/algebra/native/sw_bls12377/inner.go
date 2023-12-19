@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sync"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
 	"github.com/consensys/gnark-crypto/ecc"
 	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
-	"github.com/consensys/gnark/frontend"
 )
 
 var mappingOnce sync.Once

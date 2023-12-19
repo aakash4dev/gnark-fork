@@ -1,8 +1,8 @@
 package fields_bn254
 
 import (
+	"github.com/aakash4dev/gnark-fork/frontend"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
-	"github.com/consensys/gnark/frontend"
 )
 
 type E6 struct {

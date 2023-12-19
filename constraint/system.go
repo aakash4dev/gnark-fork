@@ -4,8 +4,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/consensys/gnark/backend/witness"
-	"github.com/consensys/gnark/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/backend/witness"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
 )
 
 // ConstraintSystem interface that all constraint systems implement.

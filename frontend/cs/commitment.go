@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/debug"
-	"github.com/consensys/gnark/logger"
+	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark-fork/debug"
+	"github.com/aakash4dev/gnark-fork/logger"
 )
 
 func Bsb22CommitmentComputePlaceholder(mod *big.Int, _ []*big.Int, output []*big.Int) (err error) {

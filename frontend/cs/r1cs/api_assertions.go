@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/consensys/gnark/debug"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/internal/expr"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/aakash4dev/gnark-fork/debug"
+	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark-fork/frontend/internal/expr"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
 )
 
 // AssertIsEqual adds an assertion in the constraint builder (i1 == i2)

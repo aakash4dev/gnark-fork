@@ -6,13 +6,13 @@ import (
 	"hash"
 	"math/big"
 
+	"github.com/aakash4dev/gnark-fork/frontend"
+	fiatshamir "github.com/aakash4dev/gnark-fork/std/fiat-shamir"
+	stdhash "github.com/aakash4dev/gnark-fork/std/hash"
+	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
+	"github.com/aakash4dev/gnark-fork/std/math/bits"
 	"github.com/consensys/gnark-crypto/ecc"
 	cryptomimc "github.com/consensys/gnark-crypto/hash"
-	"github.com/consensys/gnark/frontend"
-	fiatshamir "github.com/consensys/gnark/std/fiat-shamir"
-	stdhash "github.com/consensys/gnark/std/hash"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"github.com/consensys/gnark/std/math/bits"
 	"golang.org/x/exp/slices"
 )
 

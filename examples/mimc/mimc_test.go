@@ -17,8 +17,8 @@ package mimc
 import (
 	"testing"
 
+	"github.com/aakash4dev/gnark-fork/test"
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/test"
 )
 
 func TestPreimage(t *testing.T) {
