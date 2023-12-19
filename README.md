@@ -1,3 +1,5 @@
+Its a clone of gnark main library, with 1 updated feature, required for a perticular project..
+
 # `gnark` zk-SNARK library
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
