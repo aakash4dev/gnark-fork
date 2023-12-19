@@ -1,4 +1,4 @@
-module github.com/aakash4dev/gnark-fork
+module github.com/aakash4dev/gnark2
 
 go 1.20
 

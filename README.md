@@ -74,9 +74,9 @@ package main
 
 import (
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/aakash4dev/gnark-fork/backend/groth16"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/backend/groth16"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
 )
 
 // CubicCircuit defines a simple circuit
@@ -170,16 +170,16 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of condu
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/aakash4dev/gnark-fork/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/aakash4dev/gnark2/tags).
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
-[`gnark` Issues]: https://github.com/aakash4dev/gnark-fork/issues
+[`gnark` Issues]: https://github.com/aakash4dev/gnark2/issues
 [`gnark` Playground]: https://play.gnark.io
 [`gnark` User Documentation]: https://docs.gnark.consensys.net/
-[GitHub discussions]: https://github.com/aakash4dev/gnark-fork/discussions
+[GitHub discussions]: https://github.com/aakash4dev/gnark2/discussions
 [Proving schemes and curves]: https://docs.gnark.consensys.net/Concepts/schemes_curves
 [`gnark-announce`]: https://groups.google.com/g/gnark-announce
 [@gnark_team]: https://twitter.com/gnark_team
