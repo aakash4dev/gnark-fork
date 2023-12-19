@@ -17,11 +17,11 @@
 package cs
 
 import (
-	"github.com/aakash4dev/gnark-fork/constraint"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/constraint"
+	"github.com/aakash4dev/gnark2/internal/utils"
 	"math/big"
 
-	fr "github.com/aakash4dev/gnark-fork/internal/tinyfield"
+	fr "github.com/aakash4dev/gnark2/internal/tinyfield"
 )
 
 // CoeffTable ensure we store unique coefficients in the constraint system

@@ -17,7 +17,7 @@ limitations under the License.
 package frontend
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend/internal/expr"
+	"github.com/aakash4dev/gnark2/frontend/internal/expr"
 )
 
 // Variable represents a variable in the circuit. Any integer type (e.g. int, *big.Int, fr.Element)

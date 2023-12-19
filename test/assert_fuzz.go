@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/schema"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/schema"
 	"github.com/consensys/gnark"
 	"github.com/consensys/gnark-crypto/ecc"
 )

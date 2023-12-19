@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/frontend/cs/scs"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 
@@ -828,7 +828,7 @@ func TestIssue348UnconstrainedLimbs(t *testing.T) {
 	// for freshly initialised elements (using NewElement, or directly by
 	// constructing the structure), we do not automatically enforce the widths.
 	//
-	// The bug is tracked in https://github.com/aakash4dev/gnark-fork/issues/348
+	// The bug is tracked in https://github.com/aakash4dev/gnark2/issues/348
 	a := big.NewInt(5)
 	b, _ := new(big.Int).SetString("21888242871839275222246405745257275088548364400416034343698204186575808495612", 10)
 	assert := test.NewAssert(t)

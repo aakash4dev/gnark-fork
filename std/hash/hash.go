@@ -21,8 +21,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/math/uints"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/math/uints"
 )
 
 // FieldHasher hashes inputs into a short digest. This interface mocks

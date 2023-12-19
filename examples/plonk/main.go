@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aakash4dev/gnark-fork/backend/plonk"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
+	"github.com/aakash4dev/gnark2/backend/plonk"
+	cs "github.com/aakash4dev/gnark2/constraint/bn254"
+	"github.com/aakash4dev/gnark2/frontend/cs/scs"
 	"github.com/consensys/gnark-crypto/ecc"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/test/unsafekzg"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/test/unsafekzg"
 )
 
 // In this example we show how to use PLONK with KZG commitments. The circuit that is

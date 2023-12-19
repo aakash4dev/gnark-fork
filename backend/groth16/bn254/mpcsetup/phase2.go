@@ -23,8 +23,8 @@ import (
 
 	curve "github.com/consensys/gnark-crypto/ecc/bn254"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs "github.com/aakash4dev/gnark2/constraint/bn254"
 )
 
 type Phase2Evaluations struct {

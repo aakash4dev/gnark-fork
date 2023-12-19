@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/constraint/solver"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 func (f *Field[T]) wrapHint(nonnativeInputs ...*Element[T]) []frontend.Variable {

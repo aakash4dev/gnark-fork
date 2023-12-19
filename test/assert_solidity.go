@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	groth16_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254"
-	plonk_bn254 "github.com/aakash4dev/gnark-fork/backend/plonk/bn254"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
+	"github.com/aakash4dev/gnark2/backend"
+	groth16_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254"
+	plonk_bn254 "github.com/aakash4dev/gnark2/backend/plonk/bn254"
+	"github.com/aakash4dev/gnark2/backend/witness"
 )
 
 type verifyingKey interface {

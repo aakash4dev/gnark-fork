@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 func TestIsCrumb(t *testing.T) {

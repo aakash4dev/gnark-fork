@@ -1,15 +1,15 @@
 package test
 
 import (
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/backend/groth16"
-	"github.com/aakash4dev/gnark-fork/backend/plonk"
-	"github.com/aakash4dev/gnark-fork/backend/plonkfri"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/schema"
-	"github.com/aakash4dev/gnark-fork/test/unsafekzg"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/backend/groth16"
+	"github.com/aakash4dev/gnark2/backend/plonk"
+	"github.com/aakash4dev/gnark2/backend/plonkfri"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	"github.com/aakash4dev/gnark2/constraint"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/schema"
+	"github.com/aakash4dev/gnark2/test/unsafekzg"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

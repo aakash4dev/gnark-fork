@@ -5,10 +5,10 @@ package icicle_bn254
 import (
 	"fmt"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	groth16_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
+	"github.com/aakash4dev/gnark2/backend"
+	groth16_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	cs "github.com/aakash4dev/gnark2/constraint/bn254"
 )
 
 const HasIcicle = false

@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/frontend/cs/scs"
 	"github.com/consensys/gnark"
 	"github.com/consensys/gnark-crypto/ecc"
 )

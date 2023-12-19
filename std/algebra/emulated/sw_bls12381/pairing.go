@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/fields_bls12381"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_emulated"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/fields_bls12381"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/sw_emulated"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
 	bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381"
 )
 

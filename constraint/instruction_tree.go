@@ -1,7 +1,7 @@
 package constraint
 
 import (
-	"github.com/aakash4dev/gnark-fork/debug"
+	"github.com/aakash4dev/gnark2/debug"
 )
 
 type Level int

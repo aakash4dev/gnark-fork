@@ -22,16 +22,16 @@ package groth16
 import (
 	"io"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs_bls12377 "github.com/aakash4dev/gnark-fork/constraint/bls12-377"
-	cs_bls12381 "github.com/aakash4dev/gnark-fork/constraint/bls12-381"
-	cs_bls24315 "github.com/aakash4dev/gnark-fork/constraint/bls24-315"
-	cs_bls24317 "github.com/aakash4dev/gnark-fork/constraint/bls24-317"
-	cs_bn254 "github.com/aakash4dev/gnark-fork/constraint/bn254"
-	cs_bw6633 "github.com/aakash4dev/gnark-fork/constraint/bw6-633"
-	cs_bw6761 "github.com/aakash4dev/gnark-fork/constraint/bw6-761"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs_bls12377 "github.com/aakash4dev/gnark2/constraint/bls12-377"
+	cs_bls12381 "github.com/aakash4dev/gnark2/constraint/bls12-381"
+	cs_bls24315 "github.com/aakash4dev/gnark2/constraint/bls24-315"
+	cs_bls24317 "github.com/aakash4dev/gnark2/constraint/bls24-317"
+	cs_bn254 "github.com/aakash4dev/gnark2/constraint/bn254"
+	cs_bw6633 "github.com/aakash4dev/gnark2/constraint/bw6-633"
+	cs_bw6761 "github.com/aakash4dev/gnark2/constraint/bw6-761"
 	"github.com/consensys/gnark-crypto/ecc"
 
 	fr_bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
@@ -42,16 +42,16 @@ import (
 	fr_bw6633 "github.com/consensys/gnark-crypto/ecc/bw6-633/fr"
 	fr_bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
 
-	gnarkio "github.com/aakash4dev/gnark-fork/io"
+	gnarkio "github.com/aakash4dev/gnark2/io"
 
-	groth16_bls12377 "github.com/aakash4dev/gnark-fork/backend/groth16/bls12-377"
-	groth16_bls12381 "github.com/aakash4dev/gnark-fork/backend/groth16/bls12-381"
-	groth16_bls24315 "github.com/aakash4dev/gnark-fork/backend/groth16/bls24-315"
-	groth16_bls24317 "github.com/aakash4dev/gnark-fork/backend/groth16/bls24-317"
-	groth16_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254"
-	icicle_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254/icicle"
-	groth16_bw6633 "github.com/aakash4dev/gnark-fork/backend/groth16/bw6-633"
-	groth16_bw6761 "github.com/aakash4dev/gnark-fork/backend/groth16/bw6-761"
+	groth16_bls12377 "github.com/aakash4dev/gnark2/backend/groth16/bls12-377"
+	groth16_bls12381 "github.com/aakash4dev/gnark2/backend/groth16/bls12-381"
+	groth16_bls24315 "github.com/aakash4dev/gnark2/backend/groth16/bls24-315"
+	groth16_bls24317 "github.com/aakash4dev/gnark2/backend/groth16/bls24-317"
+	groth16_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254"
+	icicle_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254/icicle"
+	groth16_bw6633 "github.com/aakash4dev/gnark2/backend/groth16/bw6-633"
+	groth16_bw6761 "github.com/aakash4dev/gnark2/backend/groth16/bw6-761"
 )
 
 type groth16Object interface {

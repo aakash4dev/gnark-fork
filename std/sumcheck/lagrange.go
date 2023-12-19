@@ -1,6 +1,6 @@
 package sumcheck
 
-import "github.com/aakash4dev/gnark-fork/frontend"
+import "github.com/aakash4dev/gnark2/frontend"
 
 // negFactorial returns (-n)(-n+1)...(-2)(-1)
 // There are more efficient algorithms, but we are talking small values here so it doesn't matter

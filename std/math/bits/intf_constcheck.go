@@ -3,7 +3,7 @@ package bits
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 // bitsComparatorConstant allows to use the built-in comparison against a

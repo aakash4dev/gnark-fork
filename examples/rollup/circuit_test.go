@@ -19,10 +19,10 @@ package rollup
 import (
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/hash/mimc"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

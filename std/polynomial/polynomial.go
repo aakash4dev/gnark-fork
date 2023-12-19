@@ -3,7 +3,7 @@ package polynomial
 import (
 	"math/bits"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 type Polynomial []frontend.Variable

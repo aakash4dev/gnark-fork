@@ -3,8 +3,8 @@ package test
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/constraint"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/constraint"
+	"github.com/aakash4dev/gnark2/internal/utils"
 )
 
 // blueprintSolver is a constraint.Solver that can be used to test a circuit

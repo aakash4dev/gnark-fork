@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/constraint/solver"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 // TODO @gbotrel hint[T FieldParams] would simplify this . Issue is when registering hint, if QuoRem[T] was declared

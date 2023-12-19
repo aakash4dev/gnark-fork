@@ -3,9 +3,9 @@ package fields_bw6761
 import (
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fp"

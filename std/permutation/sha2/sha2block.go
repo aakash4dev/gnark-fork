@@ -1,7 +1,7 @@
 package sha2
 
 import (
-	"github.com/aakash4dev/gnark-fork/std/math/uints"
+	"github.com/aakash4dev/gnark2/std/math/uints"
 )
 
 var _K = uints.NewU32Array([]uint32{

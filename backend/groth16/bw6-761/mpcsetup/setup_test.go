@@ -19,13 +19,13 @@ package mpcsetup
 import (
 	curve "github.com/consensys/gnark-crypto/ecc/bw6-761"
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bw6-761"
+	cs "github.com/aakash4dev/gnark2/constraint/bw6-761"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/backend/groth16"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
+	"github.com/aakash4dev/gnark2/backend/groth16"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/std/hash/mimc"
 	"github.com/stretchr/testify/require"
 
 	native_mimc "github.com/consensys/gnark-crypto/ecc/bw6-761/fr/mimc"

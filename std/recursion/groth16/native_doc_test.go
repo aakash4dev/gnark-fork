@@ -1,11 +1,11 @@
 package groth16_test
 
 import (
-	"github.com/aakash4dev/gnark-fork/backend/groth16"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls12377"
-	stdgroth16 "github.com/aakash4dev/gnark-fork/std/recursion/groth16"
+	"github.com/aakash4dev/gnark2/backend/groth16"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/std/algebra/native/sw_bls12377"
+	stdgroth16 "github.com/aakash4dev/gnark2/std/recursion/groth16"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

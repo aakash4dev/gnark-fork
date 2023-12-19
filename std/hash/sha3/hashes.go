@@ -1,9 +1,9 @@
 package sha3
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/hash"
-	"github.com/aakash4dev/gnark-fork/std/math/uints"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/hash"
+	"github.com/aakash4dev/gnark2/std/math/uints"
 )
 
 // New256 creates a new SHA3-256 hash.

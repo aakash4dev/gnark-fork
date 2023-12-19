@@ -1,7 +1,7 @@
 package fields_bls12381
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 	bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381"
 )
 

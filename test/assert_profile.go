@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/aakash4dev/gnark-fork/backend"
+	"github.com/aakash4dev/gnark2/backend"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/internal/utils"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	"github.com/aakash4dev/gnark-fork/frontend/schema"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	"github.com/aakash4dev/gnark2/frontend/schema"
 )
 
 // NewWitness build an ordered vector of field elements from the given assignment (Circuit)

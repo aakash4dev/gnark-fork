@@ -3,7 +3,7 @@ package constraint
 import (
 	"strings"
 
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/internal/utils"
 )
 
 type DebugInfo LogEntry

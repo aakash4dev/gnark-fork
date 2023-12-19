@@ -3,7 +3,7 @@ package fields_bw6761
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
 )
 
 func (e Ext6) nSquareKarabina12345(z *E6, n int) *E6 {

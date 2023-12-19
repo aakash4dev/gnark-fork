@@ -4,8 +4,8 @@ package cmp
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/math/bits"
 )
 
 // IsLess returns 1 if a < b, and returns 0 if a >= b. a and b should be

@@ -17,11 +17,11 @@ limitations under the License.
 package rollup
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/accumulator/merkle"
-	"github.com/aakash4dev/gnark-fork/std/algebra/native/twistededwards"
-	"github.com/aakash4dev/gnark-fork/std/hash/mimc"
-	"github.com/aakash4dev/gnark-fork/std/signature/eddsa"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/accumulator/merkle"
+	"github.com/aakash4dev/gnark2/std/algebra/native/twistededwards"
+	"github.com/aakash4dev/gnark2/std/hash/mimc"
+	"github.com/aakash4dev/gnark2/std/signature/eddsa"
 	tedwards "github.com/consensys/gnark-crypto/ecc/twistededwards"
 )
 

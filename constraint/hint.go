@@ -1,7 +1,7 @@
 package constraint
 
 import (
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark2/constraint/solver"
 )
 
 // HintMapping mark a list of output variables to be computed using provided hint and inputs.

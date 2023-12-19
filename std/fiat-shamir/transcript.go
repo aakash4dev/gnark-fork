@@ -21,10 +21,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/aakash4dev/gnark-fork/constant"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/hash"
-	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark2/constant"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/hash"
+	"github.com/aakash4dev/gnark2/std/math/bits"
 )
 
 // errChallengeNotFound is returned when a wrong challenge name is provided.

@@ -3,7 +3,7 @@ package emulated
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/std/math/emulated/emparams"
+	"github.com/aakash4dev/gnark2/std/math/emulated/emparams"
 )
 
 // FieldParams describes the emulated field characteristics. For a list of

@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/internal/stats"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/internal/stats"
 )
 
 var (

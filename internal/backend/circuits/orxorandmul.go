@@ -1,7 +1,7 @@
 package circuits
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 // circuit designed to test if plonk compiler recognizes

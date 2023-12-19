@@ -24,19 +24,19 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bls24-317/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bls24-317/fr/hash_to_field"
 	"github.com/consensys/gnark-crypto/ecc/bls24-317/fr/pedersen"
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/backend/groth16/internal"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bls24-317"
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
-	"github.com/aakash4dev/gnark-fork/logger"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/backend/groth16/internal"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs "github.com/aakash4dev/gnark2/constraint/bls24-317"
+	"github.com/aakash4dev/gnark2/constraint/solver"
+	"github.com/aakash4dev/gnark2/internal/utils"
+	"github.com/aakash4dev/gnark2/logger"
 	"math/big"
 	"runtime"
 	"time"
 
-	fcs "github.com/aakash4dev/gnark-fork/frontend/cs"
+	fcs "github.com/aakash4dev/gnark2/frontend/cs"
 )
 
 // Proof represents a Groth16 proof that was encoded with a ProvingKey and can be verified

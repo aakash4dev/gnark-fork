@@ -41,15 +41,15 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc/bls12-377/kzg"
 	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/backend/witness"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/backend/witness"
 
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bls12-377"
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
-	fcs "github.com/aakash4dev/gnark-fork/frontend/cs"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
-	"github.com/aakash4dev/gnark-fork/logger"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs "github.com/aakash4dev/gnark2/constraint/bls12-377"
+	"github.com/aakash4dev/gnark2/constraint/solver"
+	fcs "github.com/aakash4dev/gnark2/frontend/cs"
+	"github.com/aakash4dev/gnark2/internal/utils"
+	"github.com/aakash4dev/gnark2/logger"
 )
 
 // TODO in gnark-crypto:

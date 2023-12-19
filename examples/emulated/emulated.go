@@ -1,8 +1,8 @@
 package emulated
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
 )
 
 type Circuit struct {

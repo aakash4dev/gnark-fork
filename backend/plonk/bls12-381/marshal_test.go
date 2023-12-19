@@ -23,7 +23,7 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/iop"
-	"github.com/aakash4dev/gnark-fork/io"
+	"github.com/aakash4dev/gnark2/io"
 	"math/big"
 	"math/rand"
 	"testing"

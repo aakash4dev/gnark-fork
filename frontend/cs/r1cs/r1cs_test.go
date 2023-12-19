@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/internal/expr"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/internal/expr"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

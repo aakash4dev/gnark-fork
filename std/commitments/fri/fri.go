@@ -5,13 +5,13 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/aakash4dev/gnark-fork/internal/utils"
-	fiatshamir "github.com/aakash4dev/gnark-fork/std/fiat-shamir"
-	"github.com/aakash4dev/gnark-fork/std/hash"
+	"github.com/aakash4dev/gnark2/internal/utils"
+	fiatshamir "github.com/aakash4dev/gnark2/std/fiat-shamir"
+	"github.com/aakash4dev/gnark2/std/hash"
 	"github.com/consensys/gnark-crypto/ecc"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/accumulator/merkle"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/accumulator/merkle"
 )
 
 // same constant as in gnark-crypto

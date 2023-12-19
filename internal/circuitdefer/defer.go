@@ -1,7 +1,7 @@
 package circuitdefer
 
 import (
-	"github.com/aakash4dev/gnark-fork/internal/kvstore"
+	"github.com/aakash4dev/gnark2/internal/kvstore"
 )
 
 type deferKey struct{}

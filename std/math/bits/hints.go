@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark2/constraint/solver"
 )
 
 func GetHints() []solver.Hint {

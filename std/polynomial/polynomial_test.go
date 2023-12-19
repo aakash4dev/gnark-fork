@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/scs"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/frontend/cs/scs"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

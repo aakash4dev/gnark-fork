@@ -21,11 +21,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/aakash4dev/gnark-fork/backend/witness"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	csolver "github.com/aakash4dev/gnark-fork/constraint/solver"
-	"github.com/aakash4dev/gnark-fork/internal/backend/ioutils"
-	"github.com/aakash4dev/gnark-fork/logger"
+	"github.com/aakash4dev/gnark2/backend/witness"
+	"github.com/aakash4dev/gnark2/constraint"
+	csolver "github.com/aakash4dev/gnark2/constraint/solver"
+	"github.com/aakash4dev/gnark2/internal/backend/ioutils"
+	"github.com/aakash4dev/gnark2/logger"
 	"reflect"
 
 	"github.com/consensys/gnark-crypto/ecc"

@@ -3,7 +3,7 @@ package circuits
 import (
 	"math/big"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 const nbConstraintsRefSmall = 5

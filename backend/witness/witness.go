@@ -47,9 +47,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/aakash4dev/gnark-fork/debug"
-	"github.com/aakash4dev/gnark-fork/frontend/schema"
-	"github.com/aakash4dev/gnark-fork/internal/tinyfield"
+	"github.com/aakash4dev/gnark2/debug"
+	"github.com/aakash4dev/gnark2/frontend/schema"
+	"github.com/aakash4dev/gnark2/internal/tinyfield"
 	fr_bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377/fr"
 	fr_bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
 	fr_bls24315 "github.com/consensys/gnark-crypto/ecc/bls24-315/fr"

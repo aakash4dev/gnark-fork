@@ -3,7 +3,7 @@ package gkr
 import (
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/constraint"
+	"github.com/aakash4dev/gnark2/constraint"
 	"github.com/stretchr/testify/assert"
 )
 

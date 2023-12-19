@@ -17,8 +17,8 @@ limitations under the License.
 package sw_bls24315
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/algebra/native/fields_bls24315"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/algebra/native/fields_bls24315"
 	bls24315 "github.com/consensys/gnark-crypto/ecc/bls24-315"
 )
 

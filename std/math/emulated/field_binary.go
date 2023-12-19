@@ -1,8 +1,8 @@
 package emulated
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/math/bits"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/math/bits"
 )
 
 // ToBits returns the bit representation of the Element in little-endian (LSB

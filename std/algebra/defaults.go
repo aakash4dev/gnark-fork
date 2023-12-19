@@ -3,15 +3,15 @@ package algebra
 import (
 	"fmt"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bls12381"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bn254"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_bw6761"
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/sw_emulated"
-	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls12377"
-	"github.com/aakash4dev/gnark-fork/std/algebra/native/sw_bls24315"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated/emparams"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/sw_bls12381"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/sw_bn254"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/sw_bw6761"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/sw_emulated"
+	"github.com/aakash4dev/gnark2/std/algebra/native/sw_bls12377"
+	"github.com/aakash4dev/gnark2/std/algebra/native/sw_bls24315"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
+	"github.com/aakash4dev/gnark2/std/math/emulated/emparams"
 )
 
 // GetCurve returns the [Curve] implementation corresponding to the scalar and

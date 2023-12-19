@@ -17,7 +17,7 @@ package mimc
 import (
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

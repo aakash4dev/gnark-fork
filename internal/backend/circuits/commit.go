@@ -1,6 +1,6 @@
 package circuits
 
-import "github.com/aakash4dev/gnark-fork/frontend"
+import "github.com/aakash4dev/gnark2/frontend"
 
 type commitCircuit struct {
 	Public frontend.Variable `gnark:",public"`

@@ -17,8 +17,8 @@
 package cs
 
 import (
-	"github.com/aakash4dev/gnark-fork/constraint"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/constraint"
+	"github.com/aakash4dev/gnark2/internal/utils"
 	"math/big"
 
 	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr"

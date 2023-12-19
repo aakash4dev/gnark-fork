@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/backend/groth16"
-	groth16_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254"
-	icicle_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254/icicle"
-	cs_bn254 "github.com/aakash4dev/gnark-fork/constraint/bn254"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/backend/groth16"
+	groth16_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254"
+	icicle_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254/icicle"
+	cs_bn254 "github.com/aakash4dev/gnark2/constraint/bn254"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

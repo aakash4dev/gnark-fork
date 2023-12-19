@@ -1,7 +1,7 @@
 package sw_bn254
 
 import (
-	"github.com/aakash4dev/gnark-fork/std/algebra/emulated/fields_bn254"
+	"github.com/aakash4dev/gnark2/std/algebra/emulated/fields_bn254"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
 )
 

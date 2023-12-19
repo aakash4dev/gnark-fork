@@ -26,8 +26,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/aakash4dev/gnark-fork/profile/internal/graph"
-	"github.com/aakash4dev/gnark-fork/profile/internal/measurement"
+	"github.com/aakash4dev/gnark2/profile/internal/graph"
+	"github.com/aakash4dev/gnark2/profile/internal/measurement"
 	"github.com/google/pprof/profile"
 )
 

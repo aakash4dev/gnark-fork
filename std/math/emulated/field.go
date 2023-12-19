@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/internal/kvstore"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
-	"github.com/aakash4dev/gnark-fork/logger"
-	"github.com/aakash4dev/gnark-fork/std/rangecheck"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/internal/kvstore"
+	"github.com/aakash4dev/gnark2/internal/utils"
+	"github.com/aakash4dev/gnark2/logger"
+	"github.com/aakash4dev/gnark2/std/rangecheck"
 	"github.com/rs/zerolog"
 	"golang.org/x/exp/constraints"
 )

@@ -20,7 +20,7 @@ import (
 	curve "github.com/consensys/gnark-crypto/ecc/bw6-761"
 
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr/pedersen"
-	"github.com/aakash4dev/gnark-fork/internal/utils"
+	"github.com/aakash4dev/gnark2/internal/utils"
 	"io"
 )
 

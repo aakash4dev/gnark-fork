@@ -3,10 +3,10 @@ package emulated
 import (
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/backend"
-	"github.com/aakash4dev/gnark-fork/std"
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/backend"
+	"github.com/aakash4dev/gnark2/std"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 )
 

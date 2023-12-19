@@ -17,7 +17,7 @@ limitations under the License.
 package twistededwards
 
 import (
-	"github.com/aakash4dev/gnark-fork/frontend"
+	"github.com/aakash4dev/gnark2/frontend"
 )
 
 // neg computes the negative of a point in SNARK coordinates

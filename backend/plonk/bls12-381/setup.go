@@ -23,9 +23,9 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/iop"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/kzg"
-	"github.com/aakash4dev/gnark-fork/backend/plonk/internal"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bls12-381"
+	"github.com/aakash4dev/gnark2/backend/plonk/internal"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs "github.com/aakash4dev/gnark2/constraint/bls12-381"
 )
 
 // VerifyingKey stores the data needed to verify a proof:

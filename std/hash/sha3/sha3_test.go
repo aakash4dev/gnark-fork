@@ -6,10 +6,10 @@ import (
 	"hash"
 	"testing"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	zkhash "github.com/aakash4dev/gnark-fork/std/hash"
-	"github.com/aakash4dev/gnark-fork/std/math/uints"
-	"github.com/aakash4dev/gnark-fork/test"
+	"github.com/aakash4dev/gnark2/frontend"
+	zkhash "github.com/aakash4dev/gnark2/std/hash"
+	"github.com/aakash4dev/gnark2/std/math/uints"
+	"github.com/aakash4dev/gnark2/test"
 	"github.com/consensys/gnark-crypto/ecc"
 	"golang.org/x/crypto/sha3"
 )

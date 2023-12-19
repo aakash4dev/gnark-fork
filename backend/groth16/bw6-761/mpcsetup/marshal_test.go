@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	curve "github.com/consensys/gnark-crypto/ecc/bw6-761"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bw6-761"
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/frontend/cs/r1cs"
-	gnarkio "github.com/aakash4dev/gnark-fork/io"
+	cs "github.com/aakash4dev/gnark2/constraint/bw6-761"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/frontend/cs/r1cs"
+	gnarkio "github.com/aakash4dev/gnark2/io"
 	"github.com/stretchr/testify/require"
 )
 

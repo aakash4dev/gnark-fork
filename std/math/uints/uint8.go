@@ -25,10 +25,10 @@ package uints
 import (
 	"fmt"
 
-	"github.com/aakash4dev/gnark-fork/frontend"
-	"github.com/aakash4dev/gnark-fork/std/internal/logderivprecomp"
-	"github.com/aakash4dev/gnark-fork/std/math/bitslice"
-	"github.com/aakash4dev/gnark-fork/std/rangecheck"
+	"github.com/aakash4dev/gnark2/frontend"
+	"github.com/aakash4dev/gnark2/std/internal/logderivprecomp"
+	"github.com/aakash4dev/gnark2/std/math/bitslice"
+	"github.com/aakash4dev/gnark2/std/rangecheck"
 )
 
 // TODO: if internal then enforce range check!

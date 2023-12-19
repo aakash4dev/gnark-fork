@@ -1,7 +1,7 @@
 package sw_bw6761
 
 import (
-	"github.com/aakash4dev/gnark-fork/std/math/emulated"
+	"github.com/aakash4dev/gnark2/std/math/emulated"
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
 )
 

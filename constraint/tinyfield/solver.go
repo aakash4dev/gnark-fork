@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/field/pool"
-	"github.com/aakash4dev/gnark-fork/constraint"
-	csolver "github.com/aakash4dev/gnark-fork/constraint/solver"
+	"github.com/aakash4dev/gnark2/constraint"
+	csolver "github.com/aakash4dev/gnark2/constraint/solver"
 	"github.com/rs/zerolog"
 	"math"
 	"math/big"
@@ -32,7 +32,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	fr "github.com/aakash4dev/gnark-fork/internal/tinyfield"
+	fr "github.com/aakash4dev/gnark2/internal/tinyfield"
 )
 
 // solver represent the state of the solver during a call to System.Solve(...)

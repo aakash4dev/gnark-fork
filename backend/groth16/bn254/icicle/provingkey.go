@@ -3,8 +3,8 @@ package icicle_bn254
 import (
 	"unsafe"
 
-	groth16_bn254 "github.com/aakash4dev/gnark-fork/backend/groth16/bn254"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
+	groth16_bn254 "github.com/aakash4dev/gnark2/backend/groth16/bn254"
+	cs "github.com/aakash4dev/gnark2/constraint/bn254"
 )
 
 type deviceInfo struct {

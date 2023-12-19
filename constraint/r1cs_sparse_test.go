@@ -3,8 +3,8 @@ package constraint_test
 import (
 	"fmt"
 
-	"github.com/aakash4dev/gnark-fork/constraint"
-	cs "github.com/aakash4dev/gnark-fork/constraint/bn254"
+	"github.com/aakash4dev/gnark2/constraint"
+	cs "github.com/aakash4dev/gnark2/constraint/bn254"
 )
 
 func ExampleSparseR1CS_GetSparseR1Cs() {
